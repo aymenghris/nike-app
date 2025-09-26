@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+    /* Font sizes */
+    --text-xs: 12px/16px;
+    --text-sm: 14px/20px;
+    --text-base: 16px/20px;
+    --text-lg: 18px/22px;
+    --text-xl: 20px/25px;
+    --text-2xl: 24px/30px;
+    --text-3xl: 28px/50px;
+    --text-4xl: 48px/58px;
+    --text-8xl: 96px/106px;
+
+    /* Fonts */
+    --font-palanquin: "Palanquin", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+
+    /* Colors */
+    --color-primary: #ECEEFF;
+    --color-coral-red: #FF6452;
+    --color-slate-gray: #6D6D6D;
+    --color-pale-blue: #F5F6FF;
+    --color-white-400: rgba(255, 255, 255, 0.80);
+
+    /* Shadows */
+    --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+    /* Background images */
+    --background-hero: url('assets/images/collection-background.svg');
+    --background-card: url('assets/images/thumbnail-background.svg');
+
+    /* Breakpoints */
+    --breakpoint-wide: 1440px;
+}
