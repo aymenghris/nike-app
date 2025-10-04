@@ -12,7 +12,7 @@ export const Navbar = () => {
                         <li key={item.label}>
                             <a
                                 href={item.href}
-                                className="font-montserrat text-slate-gray text-lg leading-normal"
+                                className="font-montserrat text-slate-gray text-lg leading-normal capitalize"
                             >
                                 {item.label}
                             </a>
