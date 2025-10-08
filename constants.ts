@@ -6,6 +6,9 @@ export const assetsPath = {
     hero: {
         arrowRight: '/icons/arrow-right.svg',
     },
+    popularProduct: {
+        star: '/icons/star.svg',
+    },
 }
 
 export const HeroShoes = [
@@ -34,4 +37,31 @@ export const statistics = [
     { value: '1k+', label: 'brands' },
     { value: '500+', label: 'shops' },
     { value: '250k+', label: 'customers' },
+]
+
+export const products = [
+    {
+        src: '/images/products/shoe1.svg',
+        name: 'Nike Air Jordan-01',
+        rating: 4.5,
+        price: '$200.20',
+    },
+    {
+        src: '/images/products/shoe2.svg',
+        name: 'Nike Air Jordan-10',
+        rating: 4.0,
+        price: '$210.20',
+    },
+    {
+        src: '/images/products/shoe3.svg',
+        name: 'Nike Air Jordan-100',
+        rating: 4.0,
+        price: '$220.20',
+    },
+    {
+        src: '/images/products/shoe4.svg',
+        name: 'Nike Air Jordan-001',
+        rating: 4.5,
+        price: '$230.20',
+    },
 ]
