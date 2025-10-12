@@ -28,7 +28,7 @@ export const SuperQuality = () => {
             </div>
             <div className="flex flex-1 items-center justify-center">
                 <img
-                    src={assetsPath.SuperQuality.shoe1}
+                    src={assetsPath.superQuality.shoe1}
                     alt="shoe 1"
                     width={570}
                     height={522}
