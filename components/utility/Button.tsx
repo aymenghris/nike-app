@@ -2,19 +2,26 @@ import type { FC } from 'react'
 import clsx from 'clsx'
 
 interface ButtonProps {
+    className?: string
+    iconAlt?: string
+    iconSrc?: string
     label: string
-    iconSrc: string
-    iconAlt: string
 }
 
-export const Button: FC<ButtonProps> = ({ label, iconSrc, iconAlt }) => {
+export const Button: FC<ButtonProps> = ({
+    label,
+    iconSrc,
+    iconAlt,
+    className,
+}) => {
     return (
         <button
             className={clsx(
                 'flex items-center justify-center gap-2',
                 'px-7 py-4',
-                'font-montserrat text-lg leading-none text-white',
-                'bg-coral-red border-coral-red rounded-full border'
+                'font-montserrat text-lg leading-none text-white capitalize',
+                'bg-coral-red border-coral-red rounded-full border',
+                className
             )}
         >
             {label}
