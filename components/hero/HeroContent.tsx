@@ -8,23 +8,21 @@ export const HeroContent = () => {
                 our summer collection
             </p>
             <h1 className="font-palanquin mt-10 text-8xl font-bold capitalize max-sm:text-[72px] max-sm:leading-[82px]">
-                    <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
-                        the new arrival
-                    </span>
+                <span className="relative z-10 pr-10 xl:bg-white xl:whitespace-nowrap">
+                    the new arrival
+                </span>
                 <br />
-                <span className="text-coral-red mt-3 inline-block">
-                        nike
-                    </span>
+                <span className="text-coral-red mt-3 inline-block">nike</span>
                 <span> shoes</span>
             </h1>
             <p className="font-montserrat text-slate-gray mt-6 mb-14 text-lg leading-8 capitalize max-sm:max-w-sm">
-                discover stylish nike arrivals, quality comfort, and
-                innovation for your active life.
+                discover stylish nike arrivals, quality comfort, and innovation
+                for your active life.
             </p>
 
             <Button
                 label="shop now"
-                iconSrc={assetsPath.hero.arrowRight}
+                iconSrc={assetsPath.shared.arrowRight}
                 iconAlt="arrow right"
             />
 

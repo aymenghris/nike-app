@@ -3,9 +3,6 @@ export const assetsPath = {
         headerLogo: '/images/navbar/header-logo.svg',
         hamburger: '/icons/hamburger.svg',
     },
-    hero: {
-        arrowRight: '/icons/arrow-right.svg',
-    },
     popularProduct: {
         star: '/icons/star.svg',
     },
@@ -14,6 +11,9 @@ export const assetsPath = {
     },
     specialOffer: {
         offer: '/images/special-offer/offer.png',
+    },
+    shared: {
+        arrowRight: '/icons/arrow-right.svg',
     },
 }
 
