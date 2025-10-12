@@ -9,6 +9,9 @@ export const assetsPath = {
     popularProduct: {
         star: '/icons/star.svg',
     },
+    SuperQuality: {
+        shoe1: '/images/super-quality/shoe1.svg',
+    },
 }
 
 export const HeroShoes = [
