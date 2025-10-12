@@ -9,12 +9,15 @@ export const assetsPath = {
     popularProduct: {
         star: '/icons/star.svg',
     },
-    SuperQuality: {
+    superQuality: {
         shoe1: '/images/super-quality/shoe1.svg',
+    },
+    specialOffer: {
+        offer: '/images/special-offer/offer.png',
     },
 }
 
-export const HeroShoes = [
+export const heroShoes = [
     {
         shoe: '/images/hero/shoe1.png',
         thumbnail: '/images/hero/thumbnail-shoe1.svg',
