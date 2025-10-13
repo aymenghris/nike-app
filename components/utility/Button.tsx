@@ -6,6 +6,7 @@ interface ButtonProps {
     iconAlt?: string
     iconSrc?: string
     label: string
+    variant?: 'primary' | 'secondary'
 }
 
 export const Button: FC<ButtonProps> = ({
@@ -13,14 +14,18 @@ export const Button: FC<ButtonProps> = ({
     iconSrc,
     iconAlt,
     className,
+    variant = 'primary',
 }) => {
     return (
         <button
             className={clsx(
                 'flex items-center justify-center gap-2',
                 'px-7 py-4',
-                'font-montserrat text-lg leading-none text-white capitalize',
-                'bg-coral-red border-coral-red rounded-full border',
+                'font-montserrat text-lg leading-none capitalize',
+                'rounded-full border',
+                variant === 'primary'
+                    ? 'bg-coral-red border-coral-red text-white'
+                    : 'border-slate-gray text-slate-gray bg-white',
                 className
             )}
         >
