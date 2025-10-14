@@ -29,7 +29,7 @@ export const HeroContent = () => {
             <div className="mt-20 flex w-full flex-wrap items-start justify-start gap-16">
                 {statistics.map((stat, index) => (
                     <div key={index}>
-                        <p className="text-4xl font-bold uppercase">
+                        <p className="text-c-4xl font-bold uppercase">
                             {stat.value}
                         </p>
                         <p className="font-montserrat text-slate-gray leading-7 capitalize">

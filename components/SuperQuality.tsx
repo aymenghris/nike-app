@@ -8,7 +8,7 @@ export const SuperQuality = () => {
             className="c-padding c-max-container flex w-full items-center justify-between gap-10 max-lg:flex-col"
         >
             <div className="flex flex-1 flex-col capitalize">
-                <h2 className="font-palanquin text-4xl font-bold lg:max-w-lg">
+                <h2 className="font-palanquin text-c-4xl font-bold lg:max-w-lg">
                     <span>we provide you</span>
                     <span className="text-coral-red"> super quality </span>
                     <span>shoes</span>

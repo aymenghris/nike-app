@@ -14,7 +14,7 @@ export const SpecialOffer = () => {
                 />
             </div>
             <div className="flex flex-1 flex-col">
-                <h2 className="font-palanquin text-4xl font-bold">
+                <h2 className="font-palanquin text-c-4xl font-bold">
                     <span className="text-coral-red">Special </span>
                     Offer
                 </h2>

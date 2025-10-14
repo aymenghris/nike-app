@@ -9,7 +9,7 @@ export const PopularProduct = () => {
             className="c-padding c-max-container max-sm:mt-12"
         >
             <div className="flex flex-col justify-start gap-5">
-                <h2 className="font-palanquin text-4xl font-bold capitalize">
+                <h2 className="font-palanquin text-c-4xl font-bold capitalize">
                     our <span className="text-coral-red"> popular </span>
                     products
                 </h2>
