@@ -1,4 +1,4 @@
-export * from './CustomerReviews'
+export * from './reviews/CustomerReviews.tsx'
 export * from './Footer'
 export * from './hero/Hero.tsx'
 export * from './Navbar'
