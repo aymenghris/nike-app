@@ -3,9 +3,6 @@ export const assetsPath = {
         headerLogo: '/images/navbar/header-logo.svg',
         hamburger: '/icons/hamburger.svg',
     },
-    popularProduct: {
-        star: '/icons/star.svg',
-    },
     superQuality: {
         shoe1: '/images/super-quality/shoe1.svg',
     },
@@ -14,6 +11,7 @@ export const assetsPath = {
     },
     shared: {
         arrowRight: '/icons/arrow-right.svg',
+        star: '/icons/star.svg',
     },
 }
 
@@ -90,5 +88,22 @@ export const services = [
         label: 'love to help you',
         subtext:
             'our dedicated team is here to assist you every step of the way.',
+    },
+]
+
+export const reviews = [
+    {
+        src: '/images/reviews/customer1.png',
+        customerName: 'alfred garfield',
+        rating: 4.5,
+        feedback:
+            'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
+    },
+    {
+        src: '/images/reviews/customer2.png',
+        customerName: 'firas amir',
+        rating: 4.5,
+        feedback:
+            "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
     },
 ]
