@@ -9,6 +9,9 @@ export const assetsPath = {
     specialOffer: {
         offer: '/images/special-offer/offer.png',
     },
+    footer: {
+        logo: '/images/footer/logo.svg',
+    },
     shared: {
         arrowRight: '/icons/arrow-right.svg',
         star: '/icons/star.svg',
@@ -105,5 +108,42 @@ export const reviews = [
         rating: 4.5,
         feedback:
             "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+    },
+]
+
+export const socialMedia = [
+    { src: '/icons/footer/facebook.svg', alt: 'facebook logo' },
+    { src: '/icons/footer/x-twitter.svg', alt: 'x (formerly twitter) logo' },
+    { src: '/icons/footer/instagram.svg', alt: 'instagram logo' },
+]
+
+export const footerLinks = [
+    {
+        title: 'products',
+        links: [
+            { name: 'air force 1', href: '/' },
+            { name: 'air max 1', href: '/' },
+            { name: 'air jordan 1', href: '/' },
+            { name: 'air force 2', href: '/' },
+            { name: 'nike waffle racer', href: '/' },
+            { name: 'nike cortez', href: '/' },
+        ],
+    },
+    {
+        title: 'help',
+        links: [
+            { name: 'about us', href: '/' },
+            { name: 'FAQs', href: '/' },
+            { name: 'how it works', href: '/' },
+            { name: 'privacy policy', href: '/' },
+            { name: 'payment policy', href: '/' },
+        ],
+    },
+    {
+        title: 'get in touch',
+        links: [
+            { name: 'customer@nike.com', href: 'mailto:customer@nike.com' },
+            { name: '+123456789', href: 'tel:+123456789' },
+        ],
     },
 ]
