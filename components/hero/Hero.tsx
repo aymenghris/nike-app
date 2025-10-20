@@ -8,7 +8,7 @@ export const Hero = () => (
         className={clsx(
             'flex flex-col justify-center gap-10',
             'padding-b c-max-container min-h-screen w-full',
-            'xl:padding-l wide:padding-r lg:flex-row'
+            'xl:padding-l wide:padding-r xl:flex-row'
         )}
     >
         <HeroContent />
