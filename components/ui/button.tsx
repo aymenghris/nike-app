@@ -5,7 +5,19 @@ import type * as React from "react"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-    "group/button inline-flex shrink-0 select-none items-center justify-center whitespace-nowrap rounded-lg border border-transparent bg-clip-padding font-medium text-sm outline-none transition-all focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+    cn(
+        "inline-flex shrink-0 items-center justify-center",
+        "whitespace-nowrap",
+        "font-medium font-montserrat text-lg capitalize leading-none",
+        "rounded-full border border-transparent bg-clip-padding",
+        "group/button select-none outline-none transition-all",
+        "focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50",
+        "active:not-aria-[haspopup]:translate-y-px",
+        "disabled:pointer-events-none disabled:opacity-50",
+        "aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20",
+        "dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40",
+        "[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+    ),
     {
         variants: {
             variant: {
@@ -19,10 +31,14 @@ const buttonVariants = cva(
                 destructive:
                     "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:focus-visible:ring-destructive/40 dark:hover:bg-destructive/30",
                 link: "text-primary underline-offset-4 hover:underline",
+
+                primary: "border-rose-400 bg-rose-400 text-white",
+                "primary-outline":
+                    "border-neutral-500 bg-white text--neutral-500",
             },
             size: {
                 default:
-                    "h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",
+                    "gap-2 px-7 py-4 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",
                 xs: "h-6 gap-1 in-data-[slot=button-group]:rounded-lg rounded-[min(var(--radius-md),10px)] px-2 text-xs has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3",
                 sm: "h-7 gap-1 in-data-[slot=button-group]:rounded-lg rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5",
                 lg: "h-9 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2",
