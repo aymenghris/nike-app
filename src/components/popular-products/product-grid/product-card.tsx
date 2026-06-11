@@ -11,8 +11,8 @@ export const ProductCard = ({ src, name, rating, price }: ProductCard) => (
             className={cn(
                 "flex items-center justify-center",
                 "size-55",
-                "rounded-xl",
-                "bg-[url('/products/product-background.svg')] bg-center bg-cover",
+                "rounded-3xl",
+                "bg-[url('/backgrounds/light-rose.svg')] bg-center bg-cover",
             )}
         >
             <Image

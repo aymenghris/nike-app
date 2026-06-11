@@ -35,7 +35,7 @@ export const ShoeCard = ({
                 className={cn(
                     "flex items-center justify-center",
                     "rounded-xl",
-                    "bg-[url('/hero/collection-background.svg')] bg-center bg-cover",
+                    "bg-[url('/backgrounds/dark-rose.svg')] bg-center bg-cover",
                     "max-sm:p-4 sm:size-40",
                 )}
             >
