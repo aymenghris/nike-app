@@ -34,7 +34,7 @@ const buttonVariants = cva(
 
                 primary: "border-rose-400 bg-rose-400 text-white",
                 "primary-outline":
-                    "border-neutral-500 bg-white text--neutral-500",
+                    "border-neutral-500 bg-white text-neutral-500",
             },
             size: {
                 default:
