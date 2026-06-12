@@ -1,6 +1,7 @@
 export * from "./hero"
 export * from "./navbar"
 export * from "./popular-products"
+export * from "./reviews"
 export * from "./services"
 export * from "./special-offer"
 export * from "./super-quality"
