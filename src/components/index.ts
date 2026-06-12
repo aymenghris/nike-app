@@ -1,4 +1,5 @@
 export * from "./hero"
 export * from "./navbar"
 export * from "./popular-products"
+export * from "./services"
 export * from "./super-quality"
