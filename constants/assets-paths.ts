@@ -7,6 +7,10 @@ export const ASSETS_PATHS = {
         shoe: "/super-quality/nike-air-max-plus-pink.png",
     },
 
+    specialOffer: {
+        offer: "/special-offer/offer.png",
+    },
+
     backgrounds: {
         light: "/backgrounds/light-rose.svg",
         dark: "/backgrounds/dark-rose.svg",
