@@ -36,7 +36,7 @@ export const ShoeCard = ({
                     "flex items-center justify-center",
                     "rounded-xl",
                     "bg-[url('/backgrounds/dark-rose.svg')] bg-center bg-cover",
-                    "max-sm:p-4 sm:size-40",
+                    "max-sm:p-8 sm:size-40",
                 )}
             >
                 <Image
