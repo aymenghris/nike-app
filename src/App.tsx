@@ -1,14 +1,14 @@
 import {
-    Navbar,
+    Footer,
     Hero,
+    Navbar,
     PopularProduct,
-    SuperQuality,
+    Reviews,
     Services,
     SpecialOffer,
-    CustomerReviews,
     Subscribe,
-    Footer,
-} from '../components'
+    SuperQuality,
+} from "./components"
 
 const App = () => {
     return (
@@ -19,7 +19,7 @@ const App = () => {
             <SuperQuality />
             <Services />
             <SpecialOffer />
-            <CustomerReviews />
+            <Reviews />
             <Subscribe />
             <Footer />
         </main>
