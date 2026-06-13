@@ -25,7 +25,7 @@ export const ProductCard = ({ src, name, rating, price }: ProductCard) => (
         </div>
 
         <div className="mt-8 flex justify-start gap-2.5">
-            <StarIcon className="fill-yellow-500 text-yellow-500" />
+            <StarIcon className="fill-rose-400 text-rose-400" />
             <span className="font-montserrat text-neutral-500 text-xl leading-normal">
                 ({rating.toFixed(1)})
             </span>
