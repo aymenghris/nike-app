@@ -11,6 +11,10 @@ export const ASSETS_PATHS = {
         offer: "/special-offer/offer.png",
     },
 
+    footer: {
+        logo: "/footer/logo.svg",
+    },
+
     backgrounds: {
         light: "/backgrounds/light-rose.svg",
         dark: "/backgrounds/dark-rose.svg",
