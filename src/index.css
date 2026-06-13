@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 
 @import "tailwindcss";
 
@@ -11,84 +11,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    /* Font sizes */
-    --text-xs--line-height: 16px;
-    --text-sm--line-height: 20px;
-    --text-base--line-height: 20px;
-    --text-lg--line-height: 22px;
-    --text-xl--line-height: 25px;
-    --text-2xl--line-height: 30px;
-
-    --text-c-3xl: 28px;
-    --text-c-3xl--line-height: 50px;
-
-    --text-c-4xl: 48px;
-    --text-c-4xl--line-height: 58px;
-
-    --text-8xl--line-height: 106px;
     /* Fonts */
     --font-palanquin: "Palanquin", sans-serif;
     --font-montserrat: "Montserrat", sans-serif;
-
-    /* Colors */
-    --color-primary: #ECEEFF;
-    --color-coral-red: #FF6452;
-    --color-slate-gray: #6D6D6D;
-    --color-pale-blue: #F5F6FF;
-    --color-white-400: rgba(255, 255, 255, 0.80);
-
-    /* Shadows */
-    --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
-
-    /* Background images */
-    --background-image-hero: url('public/images/hero/collection-background.svg');
-    --background-image-card: url('public/images/thumbnail-background.svg');
-    --background-image-footer: url('public/images/hero/collection-background.svg');
-
-    /* Breakpoints */
-    --breakpoint-wide: 1440px;
-}
-
-@utility c-max-container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-@utility c-padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
-}
-
-@utility c-padding-x {
-    @apply sm:px-16 px-8;
-}
-
-@utility c-padding-y {
-    @apply sm:py-24 py-12;
-}
-
-@utility c-padding-l {
-    @apply sm:pl-16 pl-8;
-}
-
-@utility c-padding-r {
-    @apply sm:pr-16 pr-8;
-}
-
-@utility c-padding-t {
-    @apply sm:pt-24 pt-12;
-}
-
-@utility c-padding-b {
-    @apply sm:pb-24 pb-12;
-}
-
-@utility c-info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
 }
 
 @theme inline {
     --font-heading: var(--font-sans);
-    --font-sans: 'Geist Variable', sans-serif;
+    --font-sans: "Geist Variable", sans-serif;
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -199,13 +129,13 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+    * {
+        @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+    body {
+        @apply bg-background text-foreground;
     }
-  html {
-    @apply font-sans;
+    html {
+        @apply font-sans;
     }
 }

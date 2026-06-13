@@ -20,7 +20,9 @@ export const Links = () => (
                         <li
                             key={name}
                             className={cn(
-                                "mt-3 font-montserrat text-base text-white-400 leading-normal transition-colors hover:text-slate-gray",
+                                "mt-3",
+                                "font-montserrat text-white/80 transition-colors",
+                                "hover:text-neutral-500",
                                 !name.includes("@") && "capitalize",
                             )}
                         >

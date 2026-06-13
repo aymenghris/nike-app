@@ -9,8 +9,8 @@ export const ServiceCard = ({ icon: Icon, label, subtext }: ServiceCard) => {
             className={cn(
                 "flex-1",
                 "w-full px-10 py-16",
-                "rounded-3xl shadow-3xl shadow-rose-400/15",
-                "sm:w-[350px] sm:min-w-[350px]",
+                "rounded-3xl shadow-2xl shadow-rose-400/15",
+                "sm:w-87.5 sm:min-w-87.5",
             )}
         >
             <div className="flex size-12 items-center justify-center rounded-full bg-rose-400">

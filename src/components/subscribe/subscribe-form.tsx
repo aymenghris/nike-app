@@ -16,7 +16,7 @@ export const SubscribeForm = () => {
                 required
                 className={cn(
                     "pl-5",
-                    "text-base text-neutral-500 leading-normal",
+                    "text-neutral-500",
                     "border outline-none",
                     "sm:flex-1 sm:border-none",
                     "max-sm:w-full max-sm:rounded-full max-sm:border-neutral-500 max-sm:p-5",

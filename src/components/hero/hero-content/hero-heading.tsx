@@ -1,6 +1,6 @@
 export const HeroHeading = () => {
     return (
-        <h1 className="mt-10 font-bold font-palanquin text-8xl capitalize max-sm:text-[72px] max-sm:leading-20.5">
+        <h1 className="mt-10 font-bold font-palanquin text-8xl capitalize leading-26.5 max-sm:text-[72px] max-sm:leading-20.5">
             <span className="relative z-10 pr-10 xl:whitespace-nowrap xl:bg-white">
                 the new arrival
             </span>
